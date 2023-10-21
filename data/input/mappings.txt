@@ -1,0 +1,17 @@
+# Toggl Project, Project, Category, Billable
+# R - Standard Bank PBB - VBM Backbase Enablement
+Standard Bank PBB - Support,R - Standard Bank PBB - VBM Backbase Enablement,Support,true
+Standard Bank PBB - Software Development,R - Standard Bank PBB - VBM Backbase Enablement,Software Development,true
+Standard Bank PBB - Client Meetings,R - Standard Bank PBB - VBM Backbase Enablement,Meetings,true
+Standard Bank PBB - Deployments,R - Standard Bank PBB - VBM Backbase Enablement,Deployments,true
+Standard Bank PBB - Analysis and Design,R - Standard Bank PBB - VBM Backbase Enablement,Analysis and Design,true
+# Meetings and Reviews
+Team Lead Breakaway,Meetings and Reviews,Team Lead Breakaway,false
+One on One Meeting Attendance,Meetings and Reviews,One On One Attendance,false
+One on One Meeting Facilitation,Meetings and Reviews,One On One Facilitation,false
+Review Facilitation,Meetings and Reviews,Review Facilitation,false
+Review Completion,Meetings and Reviews,Online Review Capture,false
+Knowledge Share,Meetings and Reviews,Entelect Knowledge Sharing Meeting,false
+#Training
+Dev Day Attendance,Training,DevDay Attendance,false
+Training - Self Study, Training,Self-study,false
