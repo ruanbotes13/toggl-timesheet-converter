@@ -33,7 +33,7 @@ class Timesheet:
             entry.processWorkLocation()
 
     def createExcel(self, outputPath, outputFileName):
-        columns = ['Date', 'Project','Category', 'Hours', 'Minutes', 'Billable', 'Description', 'Ticket Number', 'Sentiment', 'Worked From']
+        columns = ['Date', 'Project','Category', 'Hours', 'Minutes', 'Billable', 'Description', 'TicketNumber', 'Sentiment', 'WorkedFrom']
         index = []
         entries = []
         for entry in self.timesheetEntry:
