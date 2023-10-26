@@ -46,7 +46,7 @@ class TimesheetEntry:
             self.category,
             self.hours,
             self.minutes,
-            self.billable,
+            self.getYesNoFromBool(self.billable),
             self.description,
             "",
             self.sentiment,
@@ -54,3 +54,9 @@ class TimesheetEntry:
         ]
 
         return values
+
+    def getYesNoFromBool(self, booleanValue):
+        if (booleanValue == True):
+            return "Yes"
+        else:
+            return "No"
