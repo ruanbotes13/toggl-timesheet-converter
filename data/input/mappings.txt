@@ -11,8 +11,11 @@ One on One Meeting Attendance,Meetings and Reviews,One On One Attendance,false
 One on One Meeting Facilitation,Meetings and Reviews,One On One Facilitation,false
 Review Facilitation,Meetings and Reviews,Review Facilitation,false
 Review Completion,Meetings and Reviews,Online Review Capture,false
+Review Attendance,Meetings and Reviews,Review Attendance,false
 Knowledge Share,Meetings and Reviews,Entelect Knowledge Sharing Meeting,false
 #Training
 Dev Day Attendance,Training,DevDay Attendance,false
 Training - Self Study, Training,Self-study,false
-H4x0r Attendance, Training,H4x0r Attendance,false
+H4x0r Attendence,Training,H4x0r Attendance,false
+# Social Events
+Team Lunch Attendance,Social Events,Team Lunch Attendance,false
