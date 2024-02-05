@@ -15,7 +15,9 @@ Review Attendance,Meetings and Reviews,Review Attendance,false
 Knowledge Share,Meetings and Reviews,Entelect Knowledge Sharing Meeting,false
 #Training
 Dev Day Attendance,Training,DevDay Attendance,false
-Training - Self Study, Training,Self-study,false
+Training - Self Study,Training,Self-study,false
+Training - Awareness Training Attendance,Training,Awareness Training Attendance,false
 H4x0r Attendence,Training,H4x0r Attendance,false
+Coffee & Code,Training,Coffee & Code Attendance,false
 # Social Events
 Team Lunch Attendance,Social Events,Team Lunch Attendance,false
