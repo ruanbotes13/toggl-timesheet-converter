@@ -21,3 +21,5 @@ H4x0r Attendence,Training,H4x0r Attendance,false
 Coffee & Code,Training,Coffee & Code Attendance,false
 # Social Events
 Team Lunch Attendance,Social Events,Team Lunch Attendance,false
+# Entelect Maintenance
+Machine Setup,Entelect Maintenance,PC Maintenance,false
