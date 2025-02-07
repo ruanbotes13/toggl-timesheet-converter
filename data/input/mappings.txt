@@ -19,7 +19,13 @@ Training - Self Study,Training,Self-study,false
 Training - Awareness Training Attendance,Training,Awareness Training Attendance,false
 H4x0r Attendence,Training,H4x0r Attendance,false
 Coffee & Code,Training,Coffee & Code Attendance,false
+Streaming Party Attendance,Training,Streaming Party Attendance,false
 # Social Events
 Team Lunch Attendance,Social Events,Team Lunch Attendance,false
+Team Building,Social Events,Team Building Attendance,false
+Year end function,Social Events,Year End Function Attendance,false
 # Entelect Maintenance
 Machine Setup,Entelect Maintenance,PC Maintenance,false
+# Leave
+Sick Leave,Sick Leave,Sick Leave,false
+Leave,Leave,Leave,false
