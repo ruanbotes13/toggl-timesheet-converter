@@ -1,6 +1,6 @@
 from timesheet.timsheet_entry import TimesheetEntry
 import csv
-import pandas as pd
+import xlsxwriter
 import openpyxl
 
 class Timesheet:
@@ -34,12 +34,26 @@ class Timesheet:
 
     def createExcel(self, outputPath, outputFileName):
         columns = ['Date', 'Project','Category', 'Hours', 'Minutes', 'Billable', 'Description', 'TicketNumber', 'Sentiment', 'WorkedFrom']
-        index = []
-        entries = []
-        for entry in self.timesheetEntry:
-            entryArray = entry.valuesToArray()
-            entries.append(entryArray)
-            index.append("")
-        df = pd.DataFrame(entries,
-                  index, columns)
-        df.to_excel(outputPath + outputFileName, sheet_name='new_sheet_name', index=False)
+
+        workbook = xlsxwriter.Workbook(outputPath + outputFileName)
+        worksheet = workbook.add_worksheet('Timesheets')
+
+        bold = workbook.add_format({'bold':True})
+
+        worksheet.write_row(0,0,columns, bold)
+
+        rowIndex = 1
+        for row in self.timesheetEntry:
+            worksheet.write(rowIndex, 0, row.startDate)
+            worksheet.write(rowIndex, 1, row.project)
+            worksheet.write(rowIndex, 2, row.category)
+            worksheet.write(rowIndex, 3, row.hours)
+            worksheet.write(rowIndex, 4, row.minutes)
+            worksheet.write(rowIndex, 5, row.billable)
+            worksheet.write(rowIndex, 6, row.description)
+            worksheet.write(rowIndex, 8, row.sentiment)
+            worksheet.write(rowIndex, 9, row.location)
+
+            rowIndex += 1
+
+        workbook.close()

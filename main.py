@@ -8,7 +8,7 @@ def main():
 
     mappingsDict = populateMappings()
     timesheet = processTimesheet(filePath=filePath, mappingsDict=mappingsDict)
-    timesheet.createExcel(sys.argv[1] + "\\", fileName.replace(".csv", ".xlsx"))
+    timesheet.createExcel(sys.argv[1] + "/", fileName.replace(".csv", ".xlsx"))
     print("File " + fileName.replace(".csv", ".xlsx") + " successfully created.")
 
 def processTimesheet(filePath, mappingsDict):
@@ -31,7 +31,7 @@ def getFileToProcess(path):
 
     fileName = filteredList[int(var) - 1]
 
-    return path + "\\" + fileName, fileName
+    return path + "/" + fileName, fileName
 
 def filterFiles(dirList): 
     filteredList = []
@@ -43,7 +43,7 @@ def filterFiles(dirList):
 
 def populateMappings():
     mappingsDict = {}
-    with open("data\\input\\mappings.txt") as mappingsFile:
+    with open("data/input/mappings.txt") as mappingsFile:
         lines = mappingsFile.readlines()
         for line in lines:
             if line[0] != '#':
